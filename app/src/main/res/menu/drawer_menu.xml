@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ogd"
+            android:icon="@drawable/ic_ogd"
+
+            android:title="One Good Deed" />
+
+        <item
+            android:id="@+id/nav_lost_found"
+            android:icon="@drawable/ic_lost_found"
+            android:title="Lost and Found" />
+
+        <item
+            android:id="@+id/nav_green_card"
+            android:icon="@drawable/ic_green_card"
+            android:title="Green Card" />
+
+        <item
+            android:id="@+id/nav_food_menu"
+            android:icon="@drawable/ic_food_menu"
+            android:title="Today's Food Menu" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
